@@ -66,3 +66,12 @@ console.log(realEmptyNumber);
 console.log(typeof(realEmptyNumber)); // typeof Object = Base of JavaScript  
 console.log(typeof(String)); // functions = Base of JavaScript 
 
+// Store result in a new variable
+let newVar = myNumber + myString;
+console.log(newVar);
+
+console.log(myNumber + 1); // increment, not saved! 
+console.log(myNumber++); // increment shortcut = saves automatically
+
+console.log(myNumber - 1 ); // decrement, not saved!
+console.log(myNumber--); // decrement shortcut = saves automatically
