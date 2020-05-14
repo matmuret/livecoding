@@ -1,4 +1,7 @@
 {
+    // IF IN QUESTIONS; ALWAYS CONSOLE LOG 
+    // DEBUGGING = CHECKING 
+
     // CHange Variables 
     let change = 42;
     // reassign numbers
@@ -12,9 +15,10 @@
 
     // Change String
     let myString = 'Hello World'; // Hello World
-    console.log(myString);
+    console.log(myString); 
     // reassignment of the string
     myString = 'Hello Martina';
+    console.log(myString);
     // add to the String
     myString += ' How are you today'; // same as myString = myString + 'How are you today'
     console.log(myString); // ALSO CALLED STRING ACCUMULATION
