@@ -63,7 +63,15 @@ console.log(title);
 // substring(inclusive start) => goes until the end
 // substr() is something different!!!
 
-let newExample = "Vadim Natia Daniel Edgar Marcell Voldemort";
+let newExample = "Lena Vadim Natia Daniel Edgar Marcell Voldemort Bleda Martina Vincenzo Andrea Pei-Ling Pedro Vassilis Alejandra Filippo";
 // does this string hold the name "Lena"?
 // String.prototype.includes()
+console.log(newExample.includes("Pedro"));
+let isLenaInTheString = newExample.includes("Lena") ? "Lena is in" : "No, Lena is missing!";
+console.log(isLenaInTheString);
 
+console.log(newExample.includes('lena')); // case sensitive! 
+console.log(newExample.includes('-')); // yes
+console.log(newExample.includes(' ')); // true
+console.log(newExample.length);
+console.log(newExample.includes('Lena', 100)); // false, because at the end there is no Lena! 
